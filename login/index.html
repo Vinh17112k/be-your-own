@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: #4bc53336;">
+    <div class="container">
+        <!-- heading -->
+        <div class="form">
+            <div class="header">
+                <h1>Login</h1>
+            </div>
+            <!-- body -->
+            <div class="main">
+                <div class="form-label-group">
+                    <div class="cover">
+                        <label for="">Username</label>
+                        <input type="text" name="Username" id="username" class="form-control" value="" placeholder="type your username">
+                    </div>
+                </div>
+                <div class="form-label-group">
+                    <div class="cover">
+                        <label for="">Password</label>
+                        <input type="text" name="password" id="password" class="form-control" value="" placeholder="type your password">
+                    </div>
+                </div>
+                <div class="signInButton">
+                    <button class="signin">Sign in</button>
+                </div>
+                <div class="forgotPassword" style=" display: flex; justify-content: flex-end;">
+                    <a href="#" style="width:70%; text-decoration: none; color: #000; padding-top: 20px; margin-right: -55px;">forgot password?</a>
+                </div>
+            </div>
+            <!-- submit to login -->
+            <div class="footer">
+                <hr style="width: 80%; margin-top: 40px;">
+                <div style="display: flex; justify-content: center;">
+                    <h4 style=" position:absolute; margin-top: -45px;">OR</h4>
+                    <h4 style=" position:absolute; margin-top: -18px;">Login with</h4>
+                </div>
+                <div class="signInButton">
+                    <div class="group-icon">
+                        <a href="#"><img src="fb.png" alt="" class="icon icon-fb"></a>
+                        <a href="#"><img src="google.png" alt="" class="icon"></a>
+                        <a href="#"><img src="twitter.png" alt="" class="icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

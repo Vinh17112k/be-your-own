@@ -1,0 +1,51 @@
+.form {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    /* cho về giữa màn hình */
+    padding: auto;
+    /* 100% phụ thuộc vào kích thước thằng cha là thằng h1 */
+    background-color: aqua;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container h1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.form-label-group {
+    display: flex;
+    justify-content: center;
+}
+
+.signInButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.signin {
+    color: #fff;
+    width: 70%;
+    background-color: #8b61e6;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    outline: none;
+}
+
+.group-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 40px;
+    margin-right: 1px;
+}
+
+.icon-fb {
+    border-radius: 50%;
+}
