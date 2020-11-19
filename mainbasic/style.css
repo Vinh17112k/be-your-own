@@ -1,0 +1,58 @@
+.item-group {
+    display: flex;
+    justify-content: space-between;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color: #0d5779;
+}
+
+.item-group .nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-item {
+    color: #fff;
+    background-color: #03A9F4;
+}
+
+.dropdown-item:focus {
+    color: #fff;
+    background-color: #03A9F4;
+}
+
+.dropdown-menu {
+    background-color: #03A9F4;
+    display: none;
+}
+
+.dropdown-item:hover {
+    background-color: #0d5779;
+}
+
+#hoverDropdown:hover {
+    background-color: #0d5779;
+}
+
+.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.btn-primary {
+    border-radius: 0px 5px 5px 0;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
